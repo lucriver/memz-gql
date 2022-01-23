@@ -1,0 +1,39 @@
+{
+  "name": "memz-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucriver/memz-graphql-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucriver/memz-graphql-api/issues"
+  },
+  "homepage": "https://github.com/lucriver/memz-graphql-api#readme",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "apollo-datasource-rest": "^3.5.0",
+    "apollo-server": "^3.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "graphql": "^16.2.0",
+    "node": "^14.17.6",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  },
+  "engines": {
+    "node": "14.17.6"
+  }
+}

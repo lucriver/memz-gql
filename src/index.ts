@@ -11,6 +11,7 @@ const port = process.env.PORT || 8080;
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  playground: true,
   dataSources: () => ({
     MemzAPI: new MemzAPI(),
   }),

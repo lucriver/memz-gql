@@ -12,6 +12,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   playground: true,
+  introspection: true,
   dataSources: () => ({
     MemzAPI: new MemzAPI(),
   }),
